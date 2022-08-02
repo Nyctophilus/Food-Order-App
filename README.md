@@ -4,7 +4,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h2 align="center">Food Order React App</h2>
+  <h2>Food Order React App</h2>
 </div>
 
 <!-- TABLE OF CONTENTS -->
