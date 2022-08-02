@@ -11,18 +11,11 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#overview">Overview</a>
-      <ul>
-        <li><a href="#stack">Stack</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#demo">Live Demo</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
   </ol>
 </details>
