@@ -3,11 +3,11 @@ import mealsHeaderImg from "../../../assets/meals.jpg";
 import classes from "./Header.module.css";
 import HeaderCartButton from "../HeaderCartButton/HeaderCartButton";
 
-const Header = () => (
+const Header = ({ openCartHandler }) => (
   <>
     <header className={classes.header}>
       <h1>FoodOrder App</h1>
-      <HeaderCartButton />
+      <HeaderCartButton {...{ openCartHandler }} />
     </header>
 
     <div className={classes.mainImage}>
