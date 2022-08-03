@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   margin: 1rem;
+}
+
+.meal:not(:last-child) {
   padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
 }
