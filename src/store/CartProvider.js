@@ -73,6 +73,8 @@ const cartReducer = (state, action) => {
     };
   }
 
+  if (action.type === "CLEAR") return defaultCartState;
+
   return new Error("not handled action!");
 };
 
@@ -90,11 +92,16 @@ const CartProvider = ({ children }) => {
     dispatchCart({ type: "REMOVE_ITEM", payload: id });
   };
 
+  const clearCartHandler = () => {
+    dispatchCart({ type: "CLEAR" });
+  };
+
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemHandler,
     removeItem: removeItemHandler,
+    clearCart: clearCartHandler,
   };
 
   return (

@@ -15,10 +15,6 @@ const App = () => {
     setShowCart(false);
   };
 
-  const requestOrderHandler = () => {
-    console.log(`ordering!...`);
-  };
-
   return (
     <CartProvider>
       <Header {...{ openCartHandler }} />
@@ -26,11 +22,7 @@ const App = () => {
       <main>
         <Meals />
 
-        {showCart && (
-          <Cart
-            {...{ closeCartHandler, requestOrderHandler }}
-          />
-        )}
+        {showCart && <Cart {...{ closeCartHandler }} />}
       </main>
     </CartProvider>
   );
