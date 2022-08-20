@@ -69,6 +69,12 @@ This project require some prequesites and dependenscies to be installed, you can
 <br>
 <br>
 
+## Screenshots
+
+### Preview Image
+
+![Preview](preview.png)
+
 ## Preview
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8df2bba0-6f7e-4792-9425-e87a1b31e728/deploy-status)](https://react-foodorder-cart.netlify.app/)
